@@ -3,7 +3,7 @@
 	<br>
 </h1>
 
-<h4 align="center">1U CubeSat engineering model solar panels hardware project. </h4>
+<h4 align="center">1U CubeSat engineering model solar panels project. </h4>
 
 <p align="center">
     <a href="">
@@ -34,9 +34,28 @@
 
 ## Overview
 
+This repository includes the design and documentation of a complete set of CubeSat solar panels for engineering model assembly, integration and tests. The panels features:
+
+	- High efficiency solar cells:
+	  - 25% efficiency
+	  - Protection diodes
+	- MPPT algorithm support:
+	  - Voltage/current measurements
+	  - Temperature measurements
+	- ADCS algorithm support:
+	  - Accelerometer, gyrocope, and magnetorquer
+	  - Light detection
+	  - Current drivers
+	  - Embedded copper coils
+
+The modules were inspired in the [GomSpace](https://gomspace.com/shop/subsystems/power/p110-solar-panel.aspx)/[ISIS](https://www.isispace.nl/product/isis-cubesat-solar-panels/) counterparts and tailored to be compatible with [SpaceLab](https://spacelab.ufsc.br/en/home/)'s first satellite mission ([FloripaSat-1](https://floripasat.ufsc.br/)). The project is part of the Optoelectronics course (taught at UFSC), which required a StartUp minimal viable product. It is a group project composed of [André Mattos](https://github.com/andrempmattos) and [Carlos Lemos]().
+
 ## Repository Organization
-	- documentation: 
-	- hardware: 
+	- documentation: Complete documentation of all solar panels 
+	- hardware: Sources, outputs, and auxiliary documents 
+	  - spx: Solar panel model X (X axis)
+	  - spy: Solar panel model Y (Y axis)
+	  - spz: Solar panel model Z (Z axis)
 
 ## License
 
@@ -44,7 +63,8 @@ This project is open-source and under the GPLv3 license, but some third-part fil
 
 ## Releases
 
-## Notes
+Check the [releases](https://github.com/andrempmattos/cubesat-solar-panels/releases) page to get the last stable version.
 
+## Notes
 
 
