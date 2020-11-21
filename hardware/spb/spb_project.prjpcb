@@ -55,75 +55,7 @@ GenerateClassCluster=0
 DocumentUniqueId=VOXHWOPC
 
 [Document2]
-DocumentPath=sources\1_interface.schdoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=UPBEAMMS
-
-[Document3]
-DocumentPath=sources\2_topology.schdoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VFNPJVLR
-
-[Document4]
-DocumentPath=sources\3_mcu_main.schdoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=DLGWQPLI
-
-[Document5]
-DocumentPath=sources\4_analog_circuits.schdoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VDDBGUQI
-
-[Document6]
-DocumentPath=sources\5_non_volatile_memory.schdoc
+DocumentPath=sources\1_solar_cells.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -139,8 +71,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EPKVVAVK
 
-[Document7]
-DocumentPath=sources\6_communication_buffers.schdoc
+[Document3]
+DocumentPath=sources\2_power_circuits.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -156,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DLKBMIUU
 
-[Document8]
+[Document4]
 DocumentPath=sources\board_layout.pcbdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GNXFAQYT
 
-[Document9]
+[Document5]
 DocumentPath=libraries\footprints_library_legacy.pcblib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document6]
 DocumentPath=libraries\schematics_library_legacy.schlib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,8 +139,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TFOAXFIV
 
-[Document11]
-DocumentPath=sources\1_interface.harness
+[Document7]
+DocumentPath=sources\board_outputjob.outjob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -224,110 +156,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
-DocumentPath=sources\3_mcu_main.harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document13]
-DocumentPath=sources\4_analog_circuits.harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document14]
-DocumentPath=sources\5_non_volatile_memory.harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document15]
-DocumentPath=sources\6_communication_buffers.harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document16]
-DocumentPath=sources\obdh2_outputjob.outjob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document17]
-DocumentPath=outputs\camtastic_fabrication_v05.cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document18]
-DocumentPath=sources\board_draftsman.PCBDwf
+[Document8]
+DocumentPath=sources\board_draftsman.pcbdwf
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -384,294 +214,6 @@ Variation32=Designator=R13|UniqueId=\KXADETFJ\AMNTUUST\PHVIHEUW\XCWCQNBF|Kind=0|
 Variation33=Designator=D8|UniqueId=\KXADETFJ\AMNTUUST\PHVIHEUW\JLBPAKRE|Kind=1|AlternatePart= 
 Variation34=Designator=R38|UniqueId=\KXADETFJ\AMNTUUST\PHVIHEUW\FKQQCLMR|Kind=1|AlternatePart= 
 ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=outputs\assembly_odb\assembly_odb.REP
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=outputs\assembly_pick_place\assembly_pick_place.txt
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=outputs\assembly_test_point\assembly_test_point.ipc
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=outputs\board_bom\board_bom.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=outputs\board_drc\board_drc.html
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=outputs\board_gerber\board_gerber.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=outputs\board_gerber\board_gerber.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=outputs\board_gerber\board_gerber.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=outputs\board_gerber\board_gerber.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=outputs\board_gerber\board_gerber.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=outputs\board_gerber\board_gerber.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=outputs\board_gerber\board_gerber.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=outputs\board_gerber\board_gerber.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=outputs\board_gerber\board_gerber.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=outputs\board_gerber\board_gerber.GM9
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=outputs\board_gerber\board_gerber.GM16
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=outputs\board_gerber\board_gerber.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=outputs\board_gerber\board_gerber.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=outputs\board_gerber\board_gerber.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=outputs\board_gerber\board_gerber.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=outputs\board_gerber\board_gerber.REP
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=outputs\board_nc_drill\board_nc_drill.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=outputs\board_nc_drill\board_nc_drill.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=outputs\board_nc_drill\board_nc_drill.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\comp_+_bot\components
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\comp_+_top\components
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\eda\data
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\3d_body\features
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\bottom_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\bottom_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\bottom_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\bottom_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\comp_+_bot\features
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\comp_+_top\features
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\dimension\features
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\drill\features
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\keep-out_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\top_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\top_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\top_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\top_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=outputs\assembly_odb\odb\symbols\oval3.811x60.8976_135\features
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=outputs\assembly_odb\odb\symbols\oval3.811x60.8976_225\features
-DItemRevisionGUID=
-
-[GeneratedDocument44]
-DocumentPath=outputs\assembly_odb\odb\symbols\oval11.811x68.8976_135\features
-DItemRevisionGUID=
-
-[GeneratedDocument45]
-DocumentPath=outputs\assembly_odb\odb\symbols\oval11.811x68.8976_225\features
-DItemRevisionGUID=
-
-[GeneratedDocument46]
-DocumentPath=outputs\assembly_odb\odb\symbols\oval15.811x72.8976_135\features
-DItemRevisionGUID=
-
-[GeneratedDocument47]
-DocumentPath=outputs\assembly_odb\odb\symbols\oval15.811x72.8976_225\features
-DItemRevisionGUID=
-
-[GeneratedDocument48]
-DocumentPath=outputs\assembly_odb\odb\symbols\rect20x60_45\features
-DItemRevisionGUID=
-
-[GeneratedDocument49]
-DocumentPath=outputs\assembly_odb\odb\symbols\rect20x60_135\features
-DItemRevisionGUID=
-
-[GeneratedDocument50]
-DocumentPath=outputs\assembly_odb\odb\symbols\rect39.3701x51.1811_315\features
-DItemRevisionGUID=
-
-[GeneratedDocument51]
-DocumentPath=outputs\assembly_odb\odb\symbols\rect41.3386x47.2441_135\features
-DItemRevisionGUID=
-
-[GeneratedDocument52]
-DocumentPath=outputs\assembly_odb\odb\symbols\rect41.3386x47.2441_225\features
-DItemRevisionGUID=
-
-[GeneratedDocument53]
-DocumentPath=outputs\assembly_odb\odb\symbols\rect41.3386x47.2441_315\features
-DItemRevisionGUID=
-
-[GeneratedDocument54]
-DocumentPath=outputs\assembly_odb\odb\symbols\rect47.2441x60_45\features
-DItemRevisionGUID=
-
-[GeneratedDocument55]
-DocumentPath=outputs\assembly_odb\odb\symbols\rect47.2441x60_135\features
-DItemRevisionGUID=
-
-[GeneratedDocument56]
-DocumentPath=outputs\assembly_odb\odb\symbols\rect53.3701x65.1811_315\features
-DItemRevisionGUID=
-
-[GeneratedDocument57]
-DocumentPath=outputs\assembly_odb\odb\symbols\rect55.3386x61.2441_135\features
-DItemRevisionGUID=
-
-[GeneratedDocument58]
-DocumentPath=outputs\assembly_odb\odb\symbols\rect55.3386x61.2441_225\features
-DItemRevisionGUID=
-
-[GeneratedDocument59]
-DocumentPath=outputs\assembly_odb\odb\symbols\rect55.3386x61.2441_315\features
-DItemRevisionGUID=
-
-[GeneratedDocument60]
-DocumentPath=outputs\assembly_odb\odb\symbols\rect61.2441x74_45\features
-DItemRevisionGUID=
-
-[GeneratedDocument61]
-DocumentPath=outputs\assembly_odb\odb\symbols\rect61.2441x74_135\features
-DItemRevisionGUID=
-
-[GeneratedDocument62]
-DocumentPath=outputs\assembly_odb\odb\symbols\s47.2441_135\features
-DItemRevisionGUID=
-
-[GeneratedDocument63]
-DocumentPath=outputs\assembly_odb\odb\symbols\s47.2441_315\features
-DItemRevisionGUID=
-
-[GeneratedDocument64]
-DocumentPath=outputs\assembly_odb\odb\symbols\s61.2441_135\features
-DItemRevisionGUID=
-
-[GeneratedDocument65]
-DocumentPath=outputs\assembly_odb\odb\symbols\s61.2441_315\features
-DItemRevisionGUID=
-
-[GeneratedDocument66]
-DocumentPath=outputs\assembly_odb\odb\matrix\matrix
-DItemRevisionGUID=
-
-[GeneratedDocument67]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\netlists\cadnet\netlist
-DItemRevisionGUID=
-
-[GeneratedDocument68]
-DocumentPath=outputs\board_3dmodels\parasolid_3dmodel.x_t
-DItemRevisionGUID=
-
-[GeneratedDocument69]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\profile
-DItemRevisionGUID=
-
-[GeneratedDocument70]
-DocumentPath=outputs\board_3dmodels\step_3dmodel.step
-DItemRevisionGUID=
-
-[GeneratedDocument71]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\stephdr
-DItemRevisionGUID=
-
-[GeneratedDocument72]
-DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\drill\tools
-DItemRevisionGUID=
 
 [DeviceSheetFolder1]
 Path=C:\Users\Vostro\Desktop\Hardware - Cópia\OBDH_Eng_Model_2_ALT\Sources\
@@ -741,113 +283,18 @@ OutputDir=Project Outputs for obdh2_project
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Foxit Reader PDF Printer
+TargetPrinter=HP Deskjet D1400 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=PCADNetlist
 OutputName1=PCAD Netlist
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=CadnetixNetlist
-OutputName2=Cadnetix Netlist
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=CalayNetlist
-OutputName3=Calay Netlist
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
-OutputType4=EDIF
-OutputName4=EDIF for PCB
-OutputDocumentPath4=
-OutputVariantName4=
-OutputDefault4=0
-OutputType5=EESofNetlist
-OutputName5=EESof Netlist
-OutputDocumentPath5=
-OutputVariantName5=
-OutputDefault5=0
-OutputType6=IntergraphNetlist
-OutputName6=Intergraph Netlist
-OutputDocumentPath6=
-OutputVariantName6=
-OutputDefault6=0
-OutputType7=MentorBoardStationNetlist
-OutputName7=Mentor BoardStation Netlist
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-OutputType8=MultiWire
-OutputName8=MultiWire
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
-OutputType9=OrCadPCB2Netlist
-OutputName9=Orcad/PCB2 Netlist
-OutputDocumentPath9=
-OutputVariantName9=
-OutputDefault9=0
-OutputType10=PADSNetlist
-OutputName10=PADS ASCII Netlist
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=Pcad
-OutputName11=Pcad for PCB
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=PCADnltNetlist
-OutputName12=PCADnlt Netlist
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=Protel2Netlist
-OutputName13=Protel2 Netlist
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=ProtelNetlist
-OutputName14=Protel
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=RacalNetlist
-OutputName15=Racal Netlist
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=RINFNetlist
-OutputName16=RINF Netlist
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SciCardsNetlist
-OutputName17=SciCards Netlist
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=TangoNetlist
-OutputName18=Tango Netlist
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-OutputType19=TelesisNetlist
-OutputName19=Telesis Netlist
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
-OutputType20=WireListNetlist
-OutputName20=WireList Netlist
-OutputDocumentPath20=
-OutputVariantName20=
-OutputDefault20=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Canon G3010 series
+TargetPrinter=HP Deskjet D1400 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -943,7 +390,7 @@ PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Foxit Reader PDF Printer
+TargetPrinter=HP Deskjet D1400 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Test Points For Assembly
 OutputName1=Test Point Report
@@ -967,7 +414,7 @@ PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Foxit Reader PDF Printer
+TargetPrinter=HP Deskjet D1400 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -1169,7 +616,7 @@ Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLaye
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Foxit Reader PDF Printer
+TargetPrinter=HP Deskjet D1400 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -1224,7 +671,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Foxit Reader PDF Printer
+TargetPrinter=HP Deskjet D1400 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -1404,7 +851,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Foxit Reader PDF Printer
+TargetPrinter=HP Deskjet D1400 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Vault's components states check
@@ -1439,11 +886,16 @@ OutputName6=Footprint Comparison Report
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
+OutputType7=BOM_Violations
+OutputName7=BOM Checks Report
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
 
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Foxit Reader PDF Printer
+TargetPrinter=HP Deskjet D1400 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -1494,7 +946,7 @@ OutputDefault9=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Foxit Reader PDF Printer
+TargetPrinter=HP Deskjet D1400 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1619,6 +1071,7 @@ Type113=1
 Type114=1
 Type115=1
 Type116=1
+Type117=1
 
 [Difference Levels]
 Type1=1
@@ -1686,6 +1139,7 @@ Type62=1
 Type63=1
 Type64=1
 Type65=1
+Type66=1
 
 [Electrical Rules Check]
 Type1=1
