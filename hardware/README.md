@@ -44,6 +44,12 @@ Since there are six (with only three different designs) 1U solar panel modules i
 
 ## Architecture
 
+<p align="center">
+	<img width="100%" src="https://github.com/andrempmattos/cubesat-solar-panels/blob/main/documentation/figures/arch_spxyz.png">
+</p>
+
+> Note: light gray means "present but not placed", mid gray means power lines, and dark gray means communication buses.
+
 **Solar Cells (required):**
 
 Each panel has several monocrystalline and high efficiency solar cells in parallel (SM141K08L) from ANYSOLAR. These cells has 25% efficiency rates, 88 x 15 x 1.8 ±0.3 [mm] size, supports -40 to +90 degree Celsius, and supply 4.46V/55.1mA at the maximum power point. 
@@ -61,9 +67,7 @@ In order to support an Attitute Determination and Control System (ADCS), the pan
 All devices used in the pannels as sensors or actuators use an I2C protocol, which might be shared and accessed by the same interface or divided in two independent interfaces, one for ADCS and other for MPPT. Besides the I2C buses, there are PWM ports (current drivers control), GPIOs (fault, status, and interrupts), and input/output power signals (input 3.3V for digital circuitry, input 2.7V to 10.8V for the current drivers, and output 0V to 5.5V from the solar cells). These interfaces are connected through picoblade connectors.
 
 
-<p align="center">
-	<img width="100%" src="https://github.com/andrempmattos/cubesat-solar-panels/blob/main/documentation/figures/arch_spxyz.png">
-</p>
+
 
 ## Development
 
