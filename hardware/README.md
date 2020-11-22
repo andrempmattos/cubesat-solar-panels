@@ -60,7 +60,7 @@ In order to improve the power efficiency, there are temperature (MCP9808) and vo
 
 **ADCS Sensors and Actuators (optional):**
 
-In order to support an Attitute Determination and Control System (ADCS), the panels have sensors (accelerometer, gyrocope, magnetorquer, and light detection) and actuators (copper coils). For the light detection there is a high accuracy light sensor (VEML6030) and for the other measurements a 9-axis sensor device (BMX055). For actuators, there are dual h-bridge drivers (DRV8833) that handles the planar copper coils (embedded in the PCB).
+In order to support an Attitute Determination and Control System (ADCS), the panels have sensors (accelerometer, gyrocope, magnetorquer, and light detection) and actuators (copper coils). For the light detection there is a high accuracy light sensor (OPT3004) and for the other measurements a 9-axis sensor device (BMX055). For actuators, there are dual h-bridge drivers (DRV8833) that handles the planar copper coils (embedded in the PCB).
 
 **Interfaces:**
 
