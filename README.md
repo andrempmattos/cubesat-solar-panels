@@ -47,6 +47,9 @@ This repository includes the design and documentation of a complete set of CubeS
 	  - Light detection
 	  - Current drivers
 	  - Embedded copper coils
+	- PCB cutouts:
+	  - Up to 4 GNSS antennas in +Y, -Y and -Z (16x16x6mm)
+	  - M12 camera lens cutout (18mm radius)
 
 The modules were inspired in the [GomSpace](https://gomspace.com/shop/subsystems/power/p110-solar-panel.aspx)/[ISIS](https://www.isispace.nl/product/isis-cubesat-solar-panels/) counterparts and tailored to be compatible with [SpaceLab](https://spacelab.ufsc.br/en/home/)'s first satellite mission ([FloripaSat-1](https://floripasat.ufsc.br/)). The project is part of the Optoelectronics course (taught at UFSC), which required a StartUp minimal viable product. It is a group project composed of [André Mattos](https://github.com/andrempmattos) and [Carlos Lemos]().
 
