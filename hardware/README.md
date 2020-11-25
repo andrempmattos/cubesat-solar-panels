@@ -32,8 +32,8 @@
 
 <!-- Add here complementary image of the solar panels in the correct 3D positions -->
 <p align="center">
-	<img width="45%" src="">
-	<img width="45%" src="">
+	<img width="45%" src="https://github.com/andrempmattos/cubesat-solar-panels/blob/main/documentation/figures/1.png">
+	<img width="45%" src="https://github.com/andrempmattos/cubesat-solar-panels/blob/main/documentation/figures/6.png">
 </p>
 
 

@@ -22,14 +22,14 @@
 
 <p align="center">
   	<a href="#overview">Overview</a> •
-  	<a href="#repository-organization">Repository Organizarion</a> •
+  	<a href="#repository-organization">Repository Organization</a> •
   	<a href="#license">License</a> •
   	<a href="#releases">Releases</a> •
   	<a href="#notes">Notes</a>
 </p>
 
 <p align="center">
-	<img width="60%" src="">
+	<img width="80%" src="https://github.com/andrempmattos/cubesat-solar-panels/blob/main/documentation/figures/15.png">
 </p>
 
 ## Overview
@@ -59,6 +59,7 @@ The modules were inspired in the [GomSpace](https://gomspace.com/shop/subsystems
 	  - spx: Solar panel model X (X axis)
 	  - spy: Solar panel model Y (Y axis)
 	  - spz: Solar panel model Z (Z axis)
+	- references: Set of datasheets, user guides, and auxiliary documentation 
 
 ## License
 
